@@ -1,0 +1,32 @@
+{
+  "name": "generator-miruken",
+  "version": "0.0.1",
+  "description": "Yeoman generator for Miruken",
+  "license": "MIT",
+  "repository": "miruken/generator-miruken",
+  "author": {
+    "name": "Michael Dudley",
+    "url": "https://github.com/miruken"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^3.10.1",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "*"
+  }
+}

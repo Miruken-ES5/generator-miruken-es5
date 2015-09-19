@@ -4,13 +4,13 @@
 
 ## Getting Started
 
-### Install Yeoman?
+### Install Yeoman
 
 ```bash
 npm install -g yo
 ```
 
-### Yeoman Generators
+### Install Miruken Generators
 
 To install generator-miruken from npm, run:
 

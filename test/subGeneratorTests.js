@@ -6,7 +6,8 @@ var _ =    require('lodash');
 var subGenerators = [
   'controller',
   'model',
-  'installer'
+  'installer',
+  'runner'
 ];
 
 _.each(subGenerators, test);

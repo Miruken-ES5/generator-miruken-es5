@@ -1,6 +1,12 @@
 'use strict';
 
 var test = require('./subGeneratorTestHelper');
+var _ =    require('lodash');
 
-test('controller');
-test('model');
+var subGenerators = [
+  'controller',
+  'model',
+  'installer'
+];
+
+_.each(subGenerators, test);

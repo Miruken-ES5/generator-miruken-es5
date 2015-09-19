@@ -1,5 +1,6 @@
-var generators = require('yeoman-generator');
-var path = require('path');
+var generators = require('yeoman-generator'),
+    path =       require('path'),
+    _ =          require('lodash');
 
 module.exports =  generators.NamedBase.extend({
 	constructor: function() {
@@ -11,12 +12,8 @@ module.exports =  generators.NamedBase.extend({
       this.templatePath('controller.js'),
       this.destinationPath(this.name + '.js'),
       {
-        name: capitalize(this.name)
+        name: _.capitalize(this.name)
       }
     );
   }
 });
-
-function capitalize (target){
-  return target.charAt(0).toUpperCase() + target.substring(1);
-}

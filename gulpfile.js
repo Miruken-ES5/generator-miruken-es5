@@ -2,6 +2,8 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var mocha = require('gulp-mocha');
 
+gulp.task('default', ['lint', 'test'] );
+
 gulp.task('lint', function() {
   return gulp.src([
       './generators/**/*.js',

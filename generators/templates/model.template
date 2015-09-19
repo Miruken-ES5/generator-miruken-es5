@@ -1,12 +1,12 @@
 new function () {
 
   var <%= namespace %> = new base2.Package(this, {
-    name:    "<%= namespace %>",
+    name:    '<%= namespace %>',
 <% if (parent) { -%>
     parent:  <%= parent %>,
 <% } -%>
-    imports: "miruken,miruken.mvc",
-    exports: "<%= capitalName %>"
+    imports: 'miruken,miruken.mvc',
+    exports: '<%= capitalName %>'
   });
 
   eval(this.imports);
@@ -14,6 +14,9 @@ new function () {
   var <%= capitalName %> = Model.extend({
     $properties: {
 
+    },
+    constructor: function () {
+      this.base(arguments);
     }
   });
 

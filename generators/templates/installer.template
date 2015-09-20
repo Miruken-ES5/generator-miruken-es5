@@ -15,10 +15,10 @@ new function() {
     $inject: ['$stateProvider'],
     constructor: function($stateProvider){
       $stateProvider
-        .state('state', {
-            url:          '/state',
-            templateUrl:  'state/stateTemplate.html',
-            controller:   'stateTemplateController',
+        .state('home', {
+            url:          '/',
+            templateUrl:  'app/home/home.html',
+            controller:   'homeController',
             controllerAs: 'vm'
         });
     }

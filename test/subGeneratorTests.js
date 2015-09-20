@@ -5,8 +5,10 @@ var _ =    require('lodash');
 
 var subGenerators = [
   'controller',
-  'model',
   'installer',
+  'model',
+  'module',
+  'protocol',
   'runner'
 ];
 

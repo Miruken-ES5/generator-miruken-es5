@@ -57,6 +57,7 @@ module.exports =  generators.Base.extend({
       this.templatePath(template),
       this.destinationPath(this.name + '.js'),
       {
+        name:        this.name,
         capitalName: _.capitalize(this.name),
         namespace:   this.namespace,
         parent:      this.parent,

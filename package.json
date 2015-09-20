@@ -1,6 +1,6 @@
 {
   "name": "generator-miruken",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator for Miruken",
   "license": "MIT",
   "repository": "miruken/generator-miruken",
